@@ -1,8 +1,8 @@
 # BBreaker-Mario
-#
-[![N|Solid](https://i.ibb.co/x8h2Hqv/live.png)](https://erwan-martin.fr/js/BBreaker)
 
-Brick Breaker game written in Javascrip
+Brick Breaker game written in Javascript
+
+[![N|Solid](https://i.ibb.co/x8h2Hqv/live.png)](https://erwan-martin.fr/js/BBreaker)
 
 # Features :
 - Il s'aggit d'un brick breaker classique, les règles ne changent pas : il faut déplacer sa barre pour essayer
