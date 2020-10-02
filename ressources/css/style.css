@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+audio {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#blur {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: top;
+
+    filter: blur(7px);
+}
+
+canvas {
+    border: solid 7px black;
+    background-color: #171721;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: none;
+}
+
+#score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#nswitch {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+#gamemenu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #000000c9;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    border: solid 3px black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#gamemenu > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    background-color: #d1d1d1e6;
+    color: black;
+    padding: 16px 0px;
+    border-radius: 20px;
+}
+
+#gamemenu #gamebuttons {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+#gamemenu #gamebuttons input {
+    background-color: #00bade;
+    padding: 7px 0px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 0px 3px;
+    box-shadow: inset 0px 0px 4px 0px #0000009e;
+
+    cursor: pointer;
+}
+
+#gamemenu #gamebuttons input:hover {
+    box-shadow: 0px 0px 0px 2px #ffffff;
+}
+
+#gamemenu #gamebuttons input:nth-of-type(2) {
+    background-color: #ff5e52;
+}
+
+#gamemenu input {
+    width: 60%;
+}
+
+#gamemenu #gamestate {
+    font-size: xx-large;
+    width: 100%;
+    padding: 15px;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: #ffffff52;
+}
+
+#pauseButton {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#loading {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loading img {
+    width: 200px;
+    height: auto;
+}
