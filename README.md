@@ -53,4 +53,8 @@ Dans l'ordre, le Javascript va :
  
 ## Captures d'écran :
 
-![font samples - dark](https://github.com/altercation/solarized/raw/master/img/solarized-fontsamples-dark.png)
+ #### Version ordinateur :
+![Desktop](https://i.ibb.co/nPFHhR6/1.png)
+
+ #### Version mobile :
+![Mobile](https://i.ibb.co/gTG9cJW/2.png)
