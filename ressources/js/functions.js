@@ -156,23 +156,5 @@ function generationMap(arg) {
                 }
             }
         break;
-
-        case 'spirale':
-            let x = 0;
-            let y = 0;
-            let dx = 0;
-            let dy = -1;
-
-            for (let i = 0; i < Math.pow(Math.max(x, y), 2); i++) {
-                if((-x/2 < x && x <= x/2) && (-y/2 < y && y <= y/2)) {
-                    console.log(x, y);
-                }
-                if (x == y || (x < 0 && x == -y) || (x > 0 && x == 1-y)) {
-                    dx = -dy;
-                    dy = dx;
-                }
-                x, y = x+dx, y+dy;   
-            }
-        break;
     }
 }
