@@ -22,7 +22,7 @@ or on [Netlify](https://gracious-snyder-5f26a3.netlify.app/)
     
    - Choisir le nombre max de balles visibles à la fois
    - Choisir la vitesse de la barre (option uniquement disponible sur pc)
-   - Choisir le pourcentafe de chance qu'un bonus apparaisse
+   - Choisir le pourcentage de chance qu'un bonus apparaisse
    - Choisir la génération de la map
     
 - Lorsque la fenêtre est redimensionnée, le jeu va recalculer la taille de la map et donc lancer une nouvelle
