@@ -3,6 +3,7 @@
 Jeu du casse briques fait en Javascript
 
 [![N|Solid](https://i.ibb.co/x8h2Hqv/live.png)](https://erwan-martin.fr/js/BBreaker)
+or on [Netlify](https://gracious-snyder-5f26a3.netlify.app/)
 
 ## Foncitonnalités :
 - Il s'aggit d'un brick breaker classique, les règles ne changent pas : il faut déplacer sa barre pour essayer
