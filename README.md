@@ -32,7 +32,7 @@ or on [Netlify](https://gracious-snyder-5f26a3.netlify.app/)
   disparait, ainsi que l'option : 'vitesse de la barre').
   
 ## Foncitonnalités bonus :
-- Le fait de cliquer sur un bouton de déplacement sur le clavier va appuyer (visuellement) sur un bouton de
+- Le fait de cliquer sur un bouton de déplacement sur le clavier va simuler l'appui sur un bouton de
     l'overlay de nintendo switch
   
 - Présence de musiques en jeu, lors d'une victoire et lors d'une défaite
@@ -51,7 +51,7 @@ Dans l'ordre, le Javascript va :
   4 - Enfin charger ``game.js`` ou se trouvent le jeu et la fonction d'initialisation de celui-ci
     
  J'ai décomposé ce jeu en plusieurs fichiers afins de pouvoir me repérer et coder plus facilement car je 
- code personellement très rarement sur des fichiers de plus de 200 lignes sans les avoir décomposés.
+ code personnellement très rarement sur des fichiers de plus de 200 lignes sans les avoir décomposés.
  
 ## Captures d'écran :
 ![Screenshots](https://i.ibb.co/8zcTF92/screenshots.png)
