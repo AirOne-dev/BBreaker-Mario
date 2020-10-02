@@ -1,0 +1,71 @@
+<!--
+    ===================================[ GitHub ]===================================
+    
+                https://github.com/Firologame/BBreaker-Mario/tree/master    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ressources/css/style.css">
+        <title>BBreak : The Game</title>
+    </head>
+    <body>
+        <audio src="ressources/audio/Super-Mario-World-Overworld-Theme-Music.mp3"></audio>
+        <audio src="ressources/audio/win.mp3"></audio>
+        <audio src="ressources/audio/loose.mp3"></audio>
+        
+        <div id='blur'></div>
+        <img id='nswitch' src="ressources/assets/switch.png" >
+        <canvas></canvas>
+        <div id='gamemenu'>
+            <div id='gameinfo'>
+                <span id='gamestate'>[Esc] Menu</span>
+                <h1>BBreaker : Mario Edition</h1><br />
+                <div id='gamebuttons'>
+                    <input id='playbutton' type="button" value="Jouer">
+                    <input id='restartbutton' type="button" value="Recommencer">
+                </div>
+            </div>
+            
+            <div id='options'>
+                <h1>Options :</h1><br />
+                
+                <p id="nbMaxBallesText" >Nombre max de balles : 200</p>
+                <input type="range" id="nbMaxBallesInput" min="1" max="2000" value="200"><br />
+                
+                <p id="vitesseBarreText" >Vitesse de la barre : 4</p>
+                <input type="range" id="vitesseBarreInput" min="1" max="12" value="4"><br />
+                
+                <p id="bonusRateText" >Apparitions de bonus : 33%</p>
+                <input type="range" id="bonusRateInput" min="0" max="100" value="33"><br />
+
+                <p id='generationMapText'>Type de map : 
+                <select id="generationMapOption">
+                    <option value="normale">Normale</option>
+                    <option value="vague">Vague</option>
+                    <option value="vagueInversee">Vague inversée</option>
+                    <option value="circle">Circulaire</option>
+                    <option value="random">Aléatoire</option>
+                </select>
+                </p>
+                
+            </div>
+        </div>
+        <span id='score'>Balles perdues : 0%</span>
+        <img id='pauseButton' src="ressources/assets/play-button.svg">
+
+        <div id='loading'>
+            <img src="ressources/assets/loading.gif">
+        </div>
+
+        <span id='copyright'>&copy; 2020 Erwan MARTIN</span>
+    </body>
+    <script src="ressources/js/variables.js"></script>
+    <script src="ressources/js/functions.js"></script>
+    <script src="ressources/js/eventsListeners.js"></script>
+    <script src="ressources/js/class.js"></script>
+    <script src="ressources/js/game.js"></script>
+</html>
