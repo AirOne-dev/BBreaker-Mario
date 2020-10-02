@@ -4,7 +4,7 @@ Jeu du casse briques fait en Javascript
 
 [![N|Solid](https://i.ibb.co/x8h2Hqv/live.png)](https://erwan-martin.fr/js/BBreaker)
 
-# Foncitonnalités :
+## Foncitonnalités :
 - Il s'aggit d'un brick breaker classique, les règles ne changent pas : il faut déplacer sa barre pour essayer
   de faire tomber le moins de balles que possible.
     
@@ -14,14 +14,14 @@ Jeu du casse briques fait en Javascript
   balle casse une brique, ce bonus, une fois récupéré celui-ci fera apparaître trois balles autour de chaques
   balles déjà présentes. De base, la limite est de 200 balles (configurable dans le menu du jeu)
     
- - Dans le menu, l'utilisateur peu :
-    - Lancer/reprendre sa partie (boutton : ``Jouer`` ou icone en haut à droite)
-    - Recommencer une partie (boutton ``Recommencer``)
+ #### Dans le menu, l'utilisateur peu :
+   - Lancer/reprendre sa partie (boutton : ``Jouer`` ou icone en haut à droite)
+   - Recommencer une partie (boutton ``Recommencer``)
     
-    - Choisir le nombre max de balles visibles à la fois
-    - Choisir la vitesse de la barre (option uniquement disponible sur pc)
-    - Choisir le pourcentafe de chance qu'un bonus apparaisse
-    - Choisir la génération de la map
+   - Choisir le nombre max de balles visibles à la fois
+   - Choisir la vitesse de la barre (option uniquement disponible sur pc)
+   - Choisir le pourcentafe de chance qu'un bonus apparaisse
+   - Choisir la génération de la map
     
 - Lorsque la fenêtre est redimensionnée, le jeu va recalculer la taille de la map et donc lancer une nouvelle
       partie
@@ -29,13 +29,13 @@ Jeu du casse briques fait en Javascript
 - Lorsque la fenêtre atteint un aspect ratio de smartphone, le jeu se met en plein écran (l'overlay de switch
   disparait, ainsi que l'option : 'vitesse de la barre').
   
-# Foncitonnalités bonus :
+## Foncitonnalités bonus :
 - Le fait de cliquer sur un bouton de déplacement sur le clavier va appuyer (visuellement) sur un bouton de
     l'overlay de nintendo switch
   
 - Présence de musiques en jeu, lors d'une victoire et lors d'une défaite
 
-# Execution des scripts :
+## Execution des scripts :
 Dans l'ordre, le Javascript va :
         
   1 - Charger ``variables.js`` et toutes les variables nécéssaires au menu/jeu
@@ -51,4 +51,6 @@ Dans l'ordre, le Javascript va :
  J'ai décomposé ce jeu en plusieurs fichiers afins de pouvoir me repérer et coder plus facilement car je 
  code personellement très rarement sur des fichiers de plus de 200 lignes sans les avoir décomposés.
  
- # Captures d'écran :
+## Captures d'écran :
+
+![font samples - dark](https://github.com/altercation/solarized/raw/master/img/solarized-fontsamples-dark.png)
