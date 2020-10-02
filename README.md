@@ -6,7 +6,7 @@ Jeu du casse briques fait en Javascript
 
 or on [Netlify](https://gracious-snyder-5f26a3.netlify.app/)
 
-## Foncitonnalités :
+## Fonctionnalités :
 - Il s'aggit d'un brick breaker classique, les règles ne changent pas : il faut déplacer sa barre pour essayer
   de faire tomber le moins de balles que possible.
     
@@ -16,7 +16,7 @@ or on [Netlify](https://gracious-snyder-5f26a3.netlify.app/)
   balle casse une brique, ce bonus, une fois récupéré celui-ci fera apparaître trois balles autour de chaques
   balles déjà présentes. De base, la limite est de 200 balles (configurable dans le menu du jeu)
     
- #### Dans le menu, l'utilisateur peu :
+ #### Dans le menu, l'utilisateur peut :
    - Lancer/reprendre sa partie (boutton : ``Jouer`` ou icone en haut à droite)
    - Recommencer une partie (boutton ``Recommencer``)
     
@@ -31,7 +31,7 @@ or on [Netlify](https://gracious-snyder-5f26a3.netlify.app/)
 - Lorsque la fenêtre atteint un aspect ratio de smartphone, le jeu se met en plein écran (l'overlay de switch
   disparait, ainsi que l'option : 'vitesse de la barre').
   
-## Foncitonnalités bonus :
+## Fonctionnalités bonus :
 - Le fait de cliquer sur un bouton de déplacement sur le clavier va simuler l'appui sur un bouton de
     l'overlay de nintendo switch
   
@@ -51,7 +51,7 @@ Dans l'ordre, le Javascript va :
   4 - Enfin charger ``game.js`` ou se trouvent le jeu et la fonction d'initialisation de celui-ci
     
  J'ai décomposé ce jeu en plusieurs fichiers afins de pouvoir me repérer et coder plus facilement car je 
- code personnellement très rarement sur des fichiers de plus de 200 lignes sans les avoir décomposés.
+ code personnellement très rarement sur des fichiers de plus de 200 lignes sans les avoir décomposées.
  
 ## Captures d'écran :
 ![Screenshots](https://i.ibb.co/8zcTF92/screenshots.png)
