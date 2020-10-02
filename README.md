@@ -52,9 +52,4 @@ Dans l'ordre, le Javascript va :
  code personellement très rarement sur des fichiers de plus de 200 lignes sans les avoir décomposés.
  
 ## Captures d'écran :
-
- #### Version ordinateur :
-![Desktop](https://i.ibb.co/nPFHhR6/1.png)
-
- #### Version mobile :
-![Mobile](https://i.ibb.co/gTG9cJW/2.png)
+![Screenshots](https://i.ibb.co/8zcTF92/screenshots.png)
